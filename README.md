@@ -185,6 +185,7 @@ Current List of Available Coins for Address Generation
 |IXC | Ixcoin | x  |
 |JBS | Jumbucks | J  |
 |JIN | Jincoin | J  |
+|KALA | Kala | K  |
 |LBRY | LBRY | b  |
 |LEAF | Leafcoin | f  |
 |LTC | Litecoin | L  |

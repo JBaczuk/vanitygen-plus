@@ -139,6 +139,7 @@ main(int argc, char **argv)
 					"IXC : Ixcoin : x\n"
 					"JBS : Jumbucks : J\n"
 					"JIN : Jincoin : J\n"
+					"KALA : Kala : K\n"
 					"LBRY : LBRY : b\n"
 					"LEAF : Leafcoin : f\n"
 					"LTC : Litecoin : L\n"
@@ -526,6 +527,14 @@ main(int argc, char **argv)
 			if (strcmp(optarg, "NYAN")== 0) {
 				fprintf(stderr,
 					"Decrypting NYAN Address\n");
+					addrtype_opt = 45;
+					privtype_opt = 173;
+					break;
+			}
+			else
+			if (strcmp(optarg, "KALA")== 0) {
+				fprintf(stderr,
+					"Decrypting KALA Address\n");
 					addrtype_opt = 45;
 					privtype_opt = 173;
 					break;
